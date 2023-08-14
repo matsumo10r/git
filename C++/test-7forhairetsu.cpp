@@ -29,6 +29,12 @@ int main()
   cout << IDs[3] << ":3" << endl;
   cout << IDs[4] << ":4" << endl;
 
+  cout << ID2s[0] << ":0" << endl;
+  cout << ID2s[1] << ":1" << endl;
+  cout << ID2s[2] << ":2" << endl;
+  cout << ID2s[3] << ":3" << endl;
+  cout << ID2s[4] << ":4" << endl;
+
   for (int i = 0; i <= NUM; i++) {
     if(i == 2) continue;
     if(i == 4) break;

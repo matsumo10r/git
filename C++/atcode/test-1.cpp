@@ -2,6 +2,9 @@
 #include <string>
 #include <cctype>
 #include <algorithm>
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main() {
     std::string value = "";
@@ -15,19 +18,19 @@ int main() {
                 int ivalue = stoi(value);
                 int ovalue = ivalue * 2;
                 value = std::to_string(ovalue);
-                std::cout << value << std::endl;
+                cout << value << endl;
             } else {
-                std::cout << "error" << std::endl;
+                cout << "error" << endl;
             };
         }
         catch(const std::exception& e)
         {
-            std::cout << "error" << std::endl;
+            cout << "error" << endl;
         }
     }
     else
     {
-        std::cout << "error" << std::endl;
+        cout << "error" << endl;
     };
 
 }
